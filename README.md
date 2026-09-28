@@ -109,6 +109,7 @@ rageval/
 - Any object with `answer(question) -> SystemOutput` can be evaluated, so the harness is not tied to one framework.
 - A system that crashes or times out is recorded as an error for that case; it does not stop the run.
 - Fault injection is seeded per question, so results are identical whether the run is sequential or parallel.
+- **The harness caught a real bug.** Its first CI run on Python 3.12 failed because parallel runs gave different scores than sequential ones. The cause was a shared SQLite connection in the retrieval library, used by several threads at once. This was [fixed in legal-hybrid-search](https://github.com/samSignal/legal-hybrid-search#tests), which now has a regression test for it.
 
 ## Tests and CI
 
