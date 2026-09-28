@@ -1,0 +1,21 @@
+name: tests-and-quality-gate
+on: [push, pull_request]
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: pytest -q
+      - name: Run evaluation
+        run: rageval run --out runs/current.json --html runs/report.html >> "$GITHUB_STEP_SUMMARY"
+      - name: Quality gate (fails the build on regressions)
+        run: rageval gate runs/current.json --thresholds thresholds.json --baseline runs/baseline.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-report
+          path: runs/
