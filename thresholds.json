@@ -1,0 +1,9 @@
+{
+  "context_recall":    {"min": 0.95, "max_drop": 0.02},
+  "citation_validity": {"min": 1.0},
+  "fact_recall":       {"min": 0.70, "max_drop": 0.03},
+  "faithfulness":      {"min": 0.95, "max_drop": 0.02},
+  "refusal_accuracy":  {"min": 0.75},
+  "false_refusal":     {"max": 0.25},
+  "latency_p95_ms":    {"max": 2000}
+}
