@@ -1,0 +1,36 @@
+{"id": "c01", "question": "How long can a probation period last?", "reference": "At most three months.", "gold_sources": ["LC-1"], "must_include": ["three months"]}
+{"id": "c02", "question": "What is the maximum overtime per year?", "reference": "Overtime may not exceed 180 hours per calendar year (and 8 hours per week).", "gold_sources": ["LC-2"], "must_include": ["180 hours"]}
+{"id": "c03", "question": "What is the overtime pay rate on a public holiday?", "reference": "Twice the hourly rate on public holidays.", "gold_sources": ["LC-2"], "must_include": ["2 times"]}
+{"id": "c04", "question": "How many days of annual leave does an employee get?", "reference": "At least 20 working days; 25 for employees under 18 or with a disability.", "gold_sources": ["LC-4"], "must_include": ["20 working days"]}
+{"id": "c05", "question": "Who pays sickness benefit for the first two days?", "reference": "The employer pays 80 percent of average pay for the first two days.", "gold_sources": ["LC-5"], "must_include": ["80 percent"]}
+{"id": "c06", "question": "What notice must an employer give an employee with six years of service?", "reference": "Two months' notice.", "gold_sources": ["LC-6"], "must_include": ["two months"]}
+{"id": "c07", "question": "How much severance pay after seven years of employment?", "reference": "Three months' average salary.", "gold_sources": ["LC-7"], "must_include": ["three months"]}
+{"id": "c08", "question": "How much notice must an employee give to resign?", "reference": "20 calendar days' written notice.", "gold_sources": ["LC-8"], "must_include": ["20 calendar days"]}
+{"id": "c09", "question": "How long is paternity leave?", "reference": "30 calendar days, taken before the child turns one.", "gold_sources": ["LC-10"], "must_include": ["30 calendar days"]}
+{"id": "c10", "question": "What compensation makes a non-compete agreement valid?", "reference": "At least 40 percent of average salary for the restricted period, maximum two years.", "gold_sources": ["LC-11"], "must_include": ["40 percent"]}
+{"id": "c11", "question": "Within how many hours must a data breach be reported?", "reference": "Within 72 hours of becoming aware of it.", "gold_sources": ["DP-6"], "must_include": ["72 hours"]}
+{"id": "c12", "question": "How long does a controller have to answer an access request?", "reference": "One month, extendable by two further months.", "gold_sources": ["DP-4"], "must_include": ["one month"]}
+{"id": "c13", "question": "What is the maximum fine under the data protection act?", "reference": "Up to 20 million euros or 4 percent of worldwide annual turnover, whichever is higher.", "gold_sources": ["DP-11"], "must_include": ["20 million", "4 percent"]}
+{"id": "c14", "question": "From what age can a child consent to online services alone?", "reference": "Children under 14 need a parent's consent, so from 14.", "gold_sources": ["DP-3"], "must_include": ["14"]}
+{"id": "c15", "question": "How long may workplace CCTV recordings be kept?", "reference": "No longer than 30 days unless needed as evidence.", "gold_sources": ["DP-8"], "must_include": ["30 days"]}
+{"id": "c16", "question": "How long do consumers have to withdraw from an online purchase?", "reference": "14 days from receiving the goods.", "gold_sources": ["CR-1"], "must_include": ["14 days"]}
+{"id": "c17", "question": "When must the trader refund after withdrawal?", "reference": "Within 14 days of receiving the withdrawal notice.", "gold_sources": ["CR-2"], "must_include": ["14 days"]}
+{"id": "c18", "question": "How long is the legal guarantee for goods?", "reference": "Two years from delivery.", "gold_sources": ["CR-5"], "must_include": ["two years"]}
+{"id": "c19", "question": "Which earlier price must a discount announcement show?", "reference": "The lowest price in the 30 days before the reduction.", "gold_sources": ["CR-8"], "must_include": ["30 days"]}
+{"id": "c20", "question": "How long must gift vouchers be valid?", "reference": "At least 12 months from purchase.", "gold_sources": ["CR-12"], "must_include": ["12 months"]}
+{"id": "c21", "question": "How far in advance must a subscription renewal reminder be sent?", "reference": "At least 30 days before renewal.", "gold_sources": ["CR-11"], "must_include": ["30 days"]}
+{"id": "c22", "question": "What is the maximum security deposit?", "reference": "Two months' rent.", "gold_sources": ["RT-2"], "must_include": ["two months"]}
+{"id": "c23", "question": "Within how many days must a deposit be returned?", "reference": "Within 30 days after the lease ends.", "gold_sources": ["RT-2"], "must_include": ["30 days"]}
+{"id": "c24", "question": "How much notice before a landlord enters the flat?", "reference": "At least 24 hours' notice.", "gold_sources": ["RT-4"], "must_include": ["24 hours"]}
+{"id": "c25", "question": "How often can rent be increased?", "reference": "No more than once in 12 months, with two months' notice.", "gold_sources": ["RT-3"], "must_include": ["12 months"]}
+{"id": "c26", "question": "What notice does a tenant give to end an indefinite lease?", "reference": "One month's written notice.", "gold_sources": ["RT-6"], "must_include": ["one month"]}
+{"id": "c27", "question": "What is the minimum share capital of a private limited company?", "reference": "1,000 euros.", "gold_sources": ["CA-1"], "must_include": ["1,000"]}
+{"id": "c28", "question": "Deadline to submit annual financial statements?", "reference": "Within five months after the end of the financial year.", "gold_sources": ["CA-4"], "must_include": ["five months"]}
+{"id": "c29", "question": "How soon must an insolvent company's director file for bankruptcy?", "reference": "Within 30 days of becoming aware of the insolvency.", "gold_sources": ["CA-7"], "must_include": ["30 days"]}
+{"id": "c30", "question": "Above what shareholding is someone a beneficial owner?", "reference": "More than 25 percent of shares or voting rights.", "gold_sources": ["CA-8"], "must_include": ["25 percent"]}
+{"id": "c31", "question": "How long are company records kept?", "reference": "At least ten years.", "gold_sources": ["CA-12"], "must_include": ["ten years"]}
+{"id": "c32", "question": "How long do other shareholders have to use their pre-emption right?", "reference": "30 days.", "gold_sources": ["CA-11"], "must_include": ["30 days"]}
+{"id": "u1", "question": "What is the corporate income tax rate in Norland?", "reference": "", "gold_sources": [], "must_include": [], "answerable": false}
+{"id": "u2", "question": "How many judges sit on the Supreme Court?", "reference": "", "gold_sources": [], "must_include": [], "answerable": false}
+{"id": "u3", "question": "What is the speed limit on motorways?", "reference": "", "gold_sources": [], "must_include": [], "answerable": false}
+{"id": "u4", "question": "How much is the monthly child benefit?", "reference": "", "gold_sources": [], "must_include": [], "answerable": false}

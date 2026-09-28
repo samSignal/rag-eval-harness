@@ -1,0 +1,30 @@
+{"id": "j01", "source": "LC-1", "claim": "A probation period can last up to three months.", "supported": true}
+{"id": "j02", "source": "LC-1", "claim": "A probation period can last up to six months.", "supported": false}
+{"id": "j03", "source": "LC-1", "claim": "During probation either side can end the contract with three working days' notice.", "supported": true}
+{"id": "j04", "source": "LC-2", "claim": "Overtime is capped at 180 hours per year.", "supported": true}
+{"id": "j05", "source": "LC-2", "claim": "Overtime is capped at 250 hours per year.", "supported": false}
+{"id": "j06", "source": "LC-2", "claim": "Overtime on public holidays is paid at double the hourly rate.", "supported": true}
+{"id": "j07", "source": "LC-4", "claim": "Employees get at least 20 working days of paid leave.", "supported": true}
+{"id": "j08", "source": "LC-4", "claim": "All employees get 25 working days of paid leave.", "supported": false}
+{"id": "j09", "source": "LC-5", "claim": "The employer pays 80 percent of average pay for the first two sick days.", "supported": true}
+{"id": "j10", "source": "LC-5", "claim": "The employer pays full salary for the first two sick days.", "supported": false}
+{"id": "j11", "source": "DP-6", "claim": "Breaches must be reported to the Inspectorate within 72 hours where feasible.", "supported": true}
+{"id": "j12", "source": "DP-6", "claim": "Breaches must be reported within 24 hours.", "supported": false}
+{"id": "j13", "source": "DP-6", "claim": "The regulator has to be told about a leak of personal data promptly, generally inside three days.", "supported": true}
+{"id": "j14", "source": "DP-11", "claim": "Fines can reach 20 million euros or 4% of global turnover.", "supported": true}
+{"id": "j15", "source": "DP-11", "claim": "Fines are limited to 10 million euros.", "supported": false}
+{"id": "j16", "source": "DP-8", "claim": "Workplace CCTV footage may be stored for at most 30 days unless needed as evidence.", "supported": true}
+{"id": "j17", "source": "DP-8", "claim": "Cameras are allowed in changing rooms if employees are informed.", "supported": false}
+{"id": "j18", "source": "CR-1", "claim": "Online buyers can cancel within 14 days without giving a reason.", "supported": true}
+{"id": "j19", "source": "CR-1", "claim": "Online buyers can cancel within 30 days.", "supported": false}
+{"id": "j20", "source": "CR-5", "claim": "Sellers are liable for defects appearing within two years of delivery.", "supported": true}
+{"id": "j21", "source": "CR-5", "claim": "Defects in the first year are presumed to have existed at delivery.", "supported": true}
+{"id": "j22", "source": "CR-5", "claim": "The guarantee lasts one year.", "supported": false}
+{"id": "j23", "source": "RT-2", "claim": "A security deposit cannot be more than two months' rent.", "supported": true}
+{"id": "j24", "source": "RT-2", "claim": "The landlord can keep the deposit for normal wear and tear.", "supported": false}
+{"id": "j25", "source": "RT-4", "claim": "Landlords must give a day's warning before visiting the flat.", "supported": true}
+{"id": "j26", "source": "CA-1", "claim": "A private limited company needs at least 1,000 euros of share capital.", "supported": true}
+{"id": "j27", "source": "CA-1", "claim": "A private limited company needs at least 2,500 euros of share capital.", "supported": false}
+{"id": "j28", "source": "CA-7", "claim": "Directors of an insolvent company must file for bankruptcy within 30 days.", "supported": true}
+{"id": "j29", "source": "CA-7", "claim": "Directors of an insolvent company have 90 days to file for bankruptcy.", "supported": false}
+{"id": "j30", "source": "CA-12", "claim": "Board minutes must be kept for at least ten years.", "supported": true}
