@@ -1,0 +1,944 @@
+{
+  "system": "legal-rag[hybrid, k=4, extractive]",
+  "judge": "heuristic",
+  "summary": {
+    "citation_precision": 0.7344,
+    "citation_recall": 0.75,
+    "citation_validity": 1.0,
+    "context_precision": 0.25,
+    "context_recall": 1.0,
+    "fact_recall": 0.75,
+    "faithfulness": 1.0,
+    "false_refusal": 0.1875,
+    "refusal_accuracy": 1.0,
+    "cases": 36,
+    "errors": 0,
+    "latency_p50_ms": 1.84,
+    "latency_p95_ms": 12.02,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cost_usd": 0.0
+  },
+  "meta": {
+    "timestamp": "2026-09-28T07:45:11+00:00",
+    "python": "3.11.15",
+    "concurrency": 4
+  },
+  "cases": [
+    {
+      "id": "c01",
+      "question": "How long can a probation period last?",
+      "answer": "An employment contract may provide for a probation period of no more than three months. [LC-1] During the probation period either party may terminate the contract by giving three working days' written notice, without stating a reason. [LC-1]",
+      "citations": [
+        "LC-1"
+      ],
+      "retrieved": [
+        "LC-1",
+        "LC-3",
+        "DP-12",
+        "LC-8"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 1.68
+    },
+    {
+      "id": "c02",
+      "question": "What is the maximum overtime per year?",
+      "answer": "Overtime may be ordered only with the employee's written consent, except in emergencies, and may not exceed 8 hours per week or 180 hours per calendar year. [LC-2]",
+      "citations": [
+        "LC-2"
+      ],
+      "retrieved": [
+        "LC-2",
+        "LC-4",
+        "LC-7",
+        "LC-11"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.87
+    },
+    {
+      "id": "c03",
+      "question": "What is the overtime pay rate on a public holiday?",
+      "answer": "Overtime shall be paid at no less than 1.5 times the employee's hourly rate, or 2 times on public holidays. [LC-2]",
+      "citations": [
+        "LC-2"
+      ],
+      "retrieved": [
+        "LC-2",
+        "LC-5",
+        "LC-7",
+        "LC-12"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.71
+    },
+    {
+      "id": "c04",
+      "question": "How many days of annual leave does an employee get?",
+      "answer": "Every employee is entitled to at least 20 working days of paid annual leave per year. [LC-4]",
+      "citations": [
+        "LC-4"
+      ],
+      "retrieved": [
+        "LC-4",
+        "LC-10",
+        "LC-8",
+        "LC-3"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.79
+    },
+    {
+      "id": "c05",
+      "question": "Who pays sickness benefit for the first two days?",
+      "answer": "For the first two days of temporary incapacity for work the employer shall pay sickness benefit of 80 percent of the employee's average pay. [LC-5]",
+      "citations": [
+        "LC-5"
+      ],
+      "retrieved": [
+        "LC-5",
+        "LC-7",
+        "LC-8",
+        "LC-11"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.76
+    },
+    {
+      "id": "c06",
+      "question": "What notice must an employer give an employee with six years of service?",
+      "answer": "An employer terminating an employment contract without fault of the employee must give written notice of one month if the employee has worked for the employer for less than one year, two months for one to ten years, and three months for more than ten years. [LC-6]",
+      "citations": [
+        "LC-6"
+      ],
+      "retrieved": [
+        "LC-6",
+        "LC-8",
+        "LC-9",
+        "LC-4"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.69
+    },
+    {
+      "id": "c07",
+      "question": "How much severance pay after seven years of employment?",
+      "answer": "An employee dismissed without fault shall receive severance pay equal to one month's average salary if employed for less than one year, two months' salary for one to five years, and three months' salary for more than five years. [LC-7]",
+      "citations": [
+        "LC-7"
+      ],
+      "retrieved": [
+        "LC-7",
+        "LC-6",
+        "LC-11",
+        "LC-12"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 15.24
+    },
+    {
+      "id": "c08",
+      "question": "How much notice must an employee give to resign?",
+      "answer": "An employer terminating an employment contract without fault of the employee must give written notice of one month if the employee has worked for the employer for less than one year, two months for one to ten years, and three months for more than ten years. [LC-6]",
+      "citations": [
+        "LC-6"
+      ],
+      "retrieved": [
+        "LC-8",
+        "LC-6",
+        "LC-4",
+        "LC-1"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "fact_recall": 0.0,
+        "faithfulness": 1.0
+      },
+      "issues": [
+        "missing key fact(s): 20 calendar days"
+      ],
+      "latency_ms": 0.96
+    },
+    {
+      "id": "c09",
+      "question": "How long is paternity leave?",
+      "answer": "A father is entitled to 30 calendar days of paternity leave, to be taken at any time before the child reaches one year of age. [LC-10]",
+      "citations": [
+        "LC-10"
+      ],
+      "retrieved": [
+        "LC-10",
+        "LC-4",
+        "RT-8",
+        "LC-3"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 10.13
+    },
+    {
+      "id": "c10",
+      "question": "What compensation makes a non-compete agreement valid?",
+      "answer": "A non-competition agreement restricting the employee after termination is valid only if made in writing, limited to a maximum of two years, and the employer pays compensation of at least 40 percent of the employee's average salary for the whole restricted period. [LC-11]",
+      "citations": [
+        "LC-11"
+      ],
+      "retrieved": [
+        "LC-11",
+        "LC-4",
+        "LC-13",
+        "CR-12"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.72
+    },
+    {
+      "id": "c11",
+      "question": "Within how many hours must a data breach be reported?",
+      "answer": "In the case of a personal data breach, the controller shall notify the Data Protection Inspectorate without undue delay and, where feasible, not later than 72 hours after becoming aware of it. [DP-6]",
+      "citations": [
+        "DP-6"
+      ],
+      "retrieved": [
+        "DP-6",
+        "LC-3",
+        "LC-2",
+        "DP-4"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.89
+    },
+    {
+      "id": "c12",
+      "question": "How long does a controller have to answer an access request?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "DP-4",
+        "DP-6",
+        "LC-9",
+        "DP-2"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "false_refusal": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "fact_recall": 0.0,
+        "faithfulness": null
+      },
+      "issues": [
+        "declined an answerable question",
+        "missing key fact(s): one month"
+      ],
+      "latency_ms": 0.78
+    },
+    {
+      "id": "c13",
+      "question": "What is the maximum fine under the data protection act?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "DP-7",
+        "DP-12",
+        "DP-6",
+        "DP-11"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "false_refusal": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "fact_recall": 0.0,
+        "faithfulness": null
+      },
+      "issues": [
+        "declined an answerable question",
+        "missing key fact(s): 20 million, 4 percent"
+      ],
+      "latency_ms": 5.55
+    },
+    {
+      "id": "c14",
+      "question": "From what age can a child consent to online services alone?",
+      "answer": "For online services offered directly to a child under 14, consent must be given by the child's parent or guardian. [DP-3]",
+      "citations": [
+        "DP-3"
+      ],
+      "retrieved": [
+        "DP-3",
+        "LC-10",
+        "CR-1",
+        "DP-5"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.75
+    },
+    {
+      "id": "c15",
+      "question": "How long may workplace CCTV recordings be kept?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "DP-8",
+        "CA-12",
+        "DP-12",
+        "LC-1"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "false_refusal": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "fact_recall": 0.0,
+        "faithfulness": null
+      },
+      "issues": [
+        "declined an answerable question",
+        "missing key fact(s): 30 days"
+      ],
+      "latency_ms": 0.74
+    },
+    {
+      "id": "c16",
+      "question": "How long do consumers have to withdraw from an online purchase?",
+      "answer": "A consumer who concludes a contract at a distance, such as online or by telephone, may withdraw from the contract within 14 days without giving any reason. [CR-1]",
+      "citations": [
+        "CR-1"
+      ],
+      "retrieved": [
+        "CR-1",
+        "CR-2",
+        "CR-12",
+        "CR-4"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.7
+    },
+    {
+      "id": "c17",
+      "question": "When must the trader refund after withdrawal?",
+      "answer": "The trader shall reimburse all payments received from the consumer, including standard delivery costs, within 14 days of receiving the notice of withdrawal. [CR-2] The trader may withhold the refund until the goods have been received back or the consumer has supplied proof of having sent them back. [CR-2]",
+      "citations": [
+        "CR-2"
+      ],
+      "retrieved": [
+        "CR-2",
+        "CR-9",
+        "CR-6",
+        "CR-11"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.73
+    },
+    {
+      "id": "c18",
+      "question": "How long is the legal guarantee for goods?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "CR-5",
+        "CR-9",
+        "CR-3",
+        "CR-6"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "false_refusal": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "fact_recall": 0.0,
+        "faithfulness": null
+      },
+      "issues": [
+        "declined an answerable question",
+        "missing key fact(s): two years"
+      ],
+      "latency_ms": 2.69
+    },
+    {
+      "id": "c19",
+      "question": "Which earlier price must a discount announcement show?",
+      "answer": "Any announcement of a price reduction shall indicate the prior price, which is the lowest price applied by the trader during the 30 days before the reduction. [CR-8]",
+      "citations": [
+        "CR-8"
+      ],
+      "retrieved": [
+        "CR-8",
+        "CR-6",
+        "CR-11",
+        "CA-1"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 15.35
+    },
+    {
+      "id": "c20",
+      "question": "How long must gift vouchers be valid?",
+      "answer": "Gift vouchers and prepaid cards sold to consumers shall be valid for at least 12 months from the date of purchase. [CR-12]",
+      "citations": [
+        "CR-12"
+      ],
+      "retrieved": [
+        "CR-12",
+        "LC-4",
+        "LC-11",
+        "DP-8"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 2.12
+    },
+    {
+      "id": "c21",
+      "question": "How far in advance must a subscription renewal reminder be sent?",
+      "answer": "Where a subscription contract renews automatically, the trader must remind the consumer at least 30 days before each renewal. [CR-11]",
+      "citations": [
+        "CR-11"
+      ],
+      "retrieved": [
+        "CR-11",
+        "CA-5",
+        "DP-9",
+        "RT-3"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 10.95
+    },
+    {
+      "id": "c22",
+      "question": "What is the maximum security deposit?",
+      "answer": "The security deposit may not exceed two months' rent. [RT-2] The lease shall state the rent, the security deposit, the duration of the lease and the condition of the premises at handover. [RT-1]",
+      "citations": [
+        "RT-2",
+        "RT-1"
+      ],
+      "retrieved": [
+        "RT-2",
+        "RT-1",
+        "LC-11",
+        "DP-10"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.5,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 3.26
+    },
+    {
+      "id": "c23",
+      "question": "Within how many days must a deposit be returned?",
+      "answer": "The landlord shall return the deposit within 30 days after the end of the lease, deducting only unpaid rent and the documented cost of damage beyond normal wear and tear. [RT-2]",
+      "citations": [
+        "RT-2"
+      ],
+      "retrieved": [
+        "RT-2",
+        "LC-4",
+        "CR-2",
+        "RT-1"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 1.0
+    },
+    {
+      "id": "c24",
+      "question": "How much notice before a landlord enters the flat?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "RT-4",
+        "RT-7",
+        "RT-3",
+        "RT-6"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "false_refusal": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "fact_recall": 0.0,
+        "faithfulness": null
+      },
+      "issues": [
+        "declined an answerable question",
+        "missing key fact(s): 24 hours"
+      ],
+      "latency_ms": 5.12
+    },
+    {
+      "id": "c25",
+      "question": "How often can rent be increased?",
+      "answer": "The landlord may increase the rent no more than once in 12 months and must give the tenant at least two months' written notice. [RT-3] Rent under a fixed-term lease may be increased only if the lease expressly provides for it. [RT-3]",
+      "citations": [
+        "RT-3"
+      ],
+      "retrieved": [
+        "RT-3",
+        "RT-2",
+        "RT-1",
+        "RT-7"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 2.04
+    },
+    {
+      "id": "c26",
+      "question": "What notice does a tenant give to end an indefinite lease?",
+      "answer": "A tenant may terminate a lease of indefinite duration by giving one month's written notice. [RT-6]",
+      "citations": [
+        "RT-6"
+      ],
+      "retrieved": [
+        "RT-6",
+        "RT-7",
+        "RT-3",
+        "RT-4"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 1.89
+    },
+    {
+      "id": "c27",
+      "question": "What is the minimum share capital of a private limited company?",
+      "answer": "The minimum share capital of a private limited company is 1,000 euros. [CA-1]",
+      "citations": [
+        "CA-1"
+      ],
+      "retrieved": [
+        "CA-1",
+        "CA-11",
+        "CA-9",
+        "CA-6"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 6.86
+    },
+    {
+      "id": "c28",
+      "question": "Deadline to submit annual financial statements?",
+      "answer": "The board shall prepare annual financial statements and submit them to the Register of Legal Entities within five months after the end of the financial year, after approval by the general meeting. [CA-4]",
+      "citations": [
+        "CA-4"
+      ],
+      "retrieved": [
+        "CA-4",
+        "CA-9",
+        "CA-6",
+        "CA-5"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 4.93
+    },
+    {
+      "id": "c29",
+      "question": "How soon must an insolvent company's director file for bankruptcy?",
+      "answer": "When a company becomes unable to pay its debts as they fall due, its director must file for bankruptcy with the court within 30 days of becoming aware of the insolvency. [CA-7]",
+      "citations": [
+        "CA-7"
+      ],
+      "retrieved": [
+        "CA-7",
+        "CA-3",
+        "CA-1",
+        "CA-6"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.82
+    },
+    {
+      "id": "c30",
+      "question": "Above what shareholding is someone a beneficial owner?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "CA-8",
+        "CA-10",
+        "CA-11",
+        "CA-5"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "false_refusal": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "fact_recall": 0.0,
+        "faithfulness": null
+      },
+      "issues": [
+        "declined an answerable question",
+        "missing key fact(s): 25 percent"
+      ],
+      "latency_ms": 1.86
+    },
+    {
+      "id": "c31",
+      "question": "How long are company records kept?",
+      "answer": "Recordings shall be kept for no longer than 30 days unless needed as evidence. [DP-8]",
+      "citations": [
+        "DP-8"
+      ],
+      "retrieved": [
+        "CA-12",
+        "DP-8",
+        "DP-12",
+        "CA-9"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "fact_recall": 0.0,
+        "faithfulness": 1.0
+      },
+      "issues": [
+        "missing key fact(s): ten years"
+      ],
+      "latency_ms": 5.27
+    },
+    {
+      "id": "c32",
+      "question": "How long do other shareholders have to use their pre-emption right?",
+      "answer": "A shareholder wishing to sell shares to a third party must first offer them to the other shareholders, who have a pre-emption right exercisable within 30 days. [CA-11]",
+      "citations": [
+        "CA-11"
+      ],
+      "retrieved": [
+        "CA-11",
+        "CA-10",
+        "CA-5",
+        "CA-12"
+      ],
+      "scores": {
+        "citation_validity": 1.0,
+        "false_refusal": 0.0,
+        "context_recall": 1.0,
+        "context_precision": 0.25,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "fact_recall": 1.0,
+        "faithfulness": 1.0
+      },
+      "issues": [],
+      "latency_ms": 5.42
+    },
+    {
+      "id": "u1",
+      "question": "What is the corporate income tax rate in Norland?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "LC-2",
+        "CR-8",
+        "CA-6",
+        "CA-1"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "refusal_accuracy": 1.0
+      },
+      "issues": [],
+      "latency_ms": 1.83
+    },
+    {
+      "id": "u2",
+      "question": "How many judges sit on the Supreme Court?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "RT-8",
+        "CR-10",
+        "CA-7",
+        "RT-9"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "refusal_accuracy": 1.0
+      },
+      "issues": [],
+      "latency_ms": 4.87
+    },
+    {
+      "id": "u3",
+      "question": "What is the speed limit on motorways?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "DP-12",
+        "LC-11",
+        "CA-1",
+        "CA-9"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "refusal_accuracy": 1.0
+      },
+      "issues": [],
+      "latency_ms": 0.95
+    },
+    {
+      "id": "u4",
+      "question": "How much is the monthly child benefit?",
+      "answer": "I couldn't find this in the provided documents.",
+      "citations": [],
+      "retrieved": [
+        "LC-10",
+        "LC-5",
+        "LC-6",
+        "DP-3"
+      ],
+      "scores": {
+        "citation_validity": null,
+        "refusal_accuracy": 1.0
+      },
+      "issues": [],
+      "latency_ms": 2.56
+    }
+  ]
+}
